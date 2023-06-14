@@ -1,9 +1,8 @@
-import entities.Room;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        BoardingSystem bs = new BoardingSystem();
+        HotelSystem hs = new HotelSystem();
 
-        bs.menu();
+        hs.menu();
     }
 }

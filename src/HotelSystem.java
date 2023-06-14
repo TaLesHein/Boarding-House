@@ -3,7 +3,7 @@ import java.util.Scanner;
 import entities.Room;
 import util.Options;
 
-public class BoardingSystem {
+public class HotelSystem {
 
     public void menu() {
 
