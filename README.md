@@ -1,18 +1,20 @@
-## Getting Started
+# Hotel System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é sobre um sistema de gerenciamento de hotel, onde nele o usuário poderá:
 
-## Folder Structure
+- Avaliar os quartos que estão disponíveis;
+- Alugar um quarto para o hóspede;
+- Disponibilizar um quarto;
+- Checar as informações de cada quarto.
 
-The workspace contains two folders by default, where:
+## Estrutura das pastas
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Neste projeto, há dois pacotes sendo utilizados: `entities` e `util`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### entities
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este pacote é designado para armazenar os objetos do projeto, são eles `Guest` e `Room`.
 
-## Dependency Management
+### util
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Este pacote é designado para armazenar os utilitários do projeto, são eles: `Options` e `StringUtils`.
