@@ -47,6 +47,11 @@ public class Room {
 
     public void makeRoomAvaible(int room) {
 
+        if(room <= 0 || room > 10){
+            System.out.printf("%n-- Error: Room does not exist");
+            return;
+        }
+
         if (rooms[room - 1] == null) {
             System.out.printf("%nThis room is already empty%n");
             return;

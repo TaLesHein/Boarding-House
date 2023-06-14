@@ -24,6 +24,7 @@ public class Options {
 
     public void seeOptions() {
 
+        System.out.println();
         for (int i = 0; i < options.length; i++) {
 
             System.out.println(options[i]);
@@ -52,10 +53,6 @@ public class Options {
         boolean roomValid;
 
         switch (option) {
-
-            // Exit Option
-            case 0:
-                return;
 
             // Avaiable Rooms Option
             case 1:

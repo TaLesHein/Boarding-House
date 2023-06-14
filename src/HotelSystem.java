@@ -14,6 +14,7 @@ public class HotelSystem {
         do {
             Options options = new Options();
 
+            // Validate option
             int selectedOption = -1;
             boolean optionValid = false;
             do {
@@ -30,7 +31,9 @@ public class HotelSystem {
 
             } while (optionValid == false);
 
-            if (options.validOption(selectedOption) == true) {
+            if (selectedOption == 0) {
+                exit = true;
+            } else if (options.validOption(selectedOption) == true) {
 
                 options.selectOption(room, selectedOption);
             }
@@ -38,6 +41,7 @@ public class HotelSystem {
         } while (exit == false);
 
         scan.close();
+        System.out.printf("%nThanks for testing :)");
         System.exit(0);
     }
 }
